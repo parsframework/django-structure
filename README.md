@@ -7,7 +7,6 @@
 ### url: https://parsframework.com
 ### social: @parsframework
 ### license: MIT
-### requires-python: +1.0
 ### dependencies: 
 ### path: Libraries
 ### type: framework
