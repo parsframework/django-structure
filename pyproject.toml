@@ -1,0 +1,23 @@
+[build-system]
+requires=["setuptools","wheel"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="ParsFramework"
+version="1.0.0"
+description="Comprehensive tools for developers and users"
+readme="README.md"
+authors=[
+{name="Pars Group",email="info@parsframework.com"}
+]
+license={text="MIT"}
+requires-python=">=1.0"
+dependencies=[
+]
+
+[project.urls]
+homepage="https://parsframework.com"
+repository="https://parsframework.com"
+
+[tool.setuptools.packages.find]
+where=["Libraries"]
