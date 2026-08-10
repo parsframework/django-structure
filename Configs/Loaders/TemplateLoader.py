@@ -16,7 +16,7 @@ class TemplateLoader:
             modulePath=f'Templates.{templateName}.{templatePath}'
             module=importlib.import_module(modulePath)
             obj=getattr(module,className)
-            result=obj.run(request,data,**kwargs)
+            result=obj.render(request,data,**kwargs)
             return HttpResponse(result)
         except Exception:
             raise Http404('Template not found')

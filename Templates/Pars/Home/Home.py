@@ -8,7 +8,7 @@ from ..Footer.Footer import Footer
 class Home(Template):
 
     @classmethod
-    def run(cls,request,data=None,**kwargs):
+    def render(cls,request,data=None,**kwargs):
         html=cls.getHeader(request,data,**kwargs)
 
         html+=f'''
