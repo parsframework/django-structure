@@ -1,45 +1,16 @@
-# name
-ParsFramework
-
-
-# version
-1.0.0
-
-
-# description
-Comprehensive tools for developers and users
-
-
-# authors
-Pars Group
-
-
-# email
-info@parsframework.com
-
-
-# url
-https://parsframework.com
-
-
-# license
-MIT
-
-
-# requires-python
->=1.0
-
-
-# dependencies
-[]
-
-
-# path
-Libraries
-
-
-# type
-framework
+# ParsFramework
+name: ParsFramework
+version: 1.0.0
+description: Comprehensive tools for developers and users
+authors: Pars Group
+email: info@parsframework.com
+url: https://parsframework.com
+social: @parsframework
+license: MIT
+requires-python: +1.0
+dependencies: 
+path: Libraries
+type: framework
 
 
 # Usage:
